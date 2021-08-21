@@ -4,7 +4,7 @@ import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.oskarprzystawko.androidstarter.common.viewmodel.Event
+import com.oskarprzystawko.androidstarter.androidcommon.viewmodel.Event
 import com.oskarprzystawko.androidstarter.ping.PingUseCase
 import kotlinx.coroutines.launch
 import javax.inject.Inject

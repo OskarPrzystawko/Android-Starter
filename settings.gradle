@@ -2,3 +2,4 @@ rootProject.name = "Android Starter App"
 include ':app'
 include ':domain'
 include ':data'
+include ':android-common'

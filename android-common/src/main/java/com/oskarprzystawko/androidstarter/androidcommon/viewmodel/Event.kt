@@ -1,6 +1,4 @@
-package com.oskarprzystawko.androidstarter.common.viewmodel
-
-import androidx.lifecycle.Observer
+package com.oskarprzystawko.androidstarter.androidcommon.viewmodel
 
 open class Event<out T>(private val content: T) {
 
@@ -18,12 +16,4 @@ open class Event<out T>(private val content: T) {
     }
 
     fun peekContent(): T = content
-}
-
-class EventObserver<T>(private val onEventUnhandledContent: (T) -> Unit) : Observer<Event<T>> {
-    override fun onChanged(event: Event<T>?) {
-        event?.getContentIfNotHandled()?.let {
-            onEventUnhandledContent(it)
-        }
-    }
 }
