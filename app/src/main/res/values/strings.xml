@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Android Starter App</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="ping_fragment_label">Ping Fragment</string>
+    <string name="ping">Ping!</string>
+</resources>
